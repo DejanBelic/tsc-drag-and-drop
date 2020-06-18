@@ -1,3 +1,21 @@
+// autobind decorator
+function autobind(
+	_: any,
+	_2: string,
+	descrpitor: PropertyDescriptor
+) {
+	const originalMethod = descrpitor.value;
+	const adjustedDescriptor: PropertyDescriptor = {
+		configurable: true,
+		get(): any {
+			const boundFn = originalMethod.bind(this);
+			return boundFn;
+		}
+	};
+	return adjustedDescriptor;
+}
+
+// project input class
 class ProjectInput  {
 	templateElement: HTMLTemplateElement;
 	hostElement: HTMLDivElement;
@@ -11,9 +29,9 @@ class ProjectInput  {
 		this.hostElement = <HTMLDivElement> document.getElementById('app')!;
 		const importedNode = document.importNode(this.templateElement.content, true);
 		this.element = importedNode.firstElementChild as HTMLFormElement;
-		this.titleInputElement = document.querySelector('#title') as HTMLInputElement;
-		this.descriptionInputElement = document.querySelector('#description') as HTMLInputElement;
-		this.peopleInputElement = document.querySelector('#people') as HTMLInputElement;
+		this.titleInputElement = this.element.querySelector('#title') as HTMLInputElement;
+		this.descriptionInputElement = this.element.querySelector('#description') as HTMLInputElement;
+		this.peopleInputElement = this.element.querySelector('#people') as HTMLInputElement;
  		this.element.id = 'user-input';
  		this.configure();
 		this.attach();
@@ -23,13 +41,14 @@ class ProjectInput  {
 		this.hostElement.insertAdjacentElement('afterbegin', this.element);
 	}
 
+	@autobind
 	private submitHandler(event: Event) {
 		event.preventDefault();
-
+		console.log(this.titleInputElement.value)
 	}
 
 	private configure() {
-		this.element.addEventListener('submit', this.submitHandler.bind(this));
+		this.element.addEventListener('submit', this.submitHandler);
 	}
 }
 
