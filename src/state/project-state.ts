@@ -1,6 +1,6 @@
-namespace App {
+import {Project, ProjectStatus} from "../models/project.js";
 
-	class State<T> {
+class State<T> {
 		protected listeners: Listener<T>[] = [];
 
 		addListener(listenerFn: Listener<T>) {
@@ -49,4 +49,3 @@ namespace App {
 	}
 
 	export const projectState = ProjectState.getInstance();
-}
