@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2eaffe74-5d27-47ab-918f-53f12e1f4499" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dVAhkCjyqyoBf5BlfDusGTctim" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/reactjs-typescript/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/state" />
+      <recent name="$PROJECT_DIR$/src/util" />
+      <recent name="$PROJECT_DIR$/src/models" />
+      <recent name="$PROJECT_DIR$/src/decorators" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eaffe74-5d27-47ab-918f-53f12e1f4499" name="Default Changelist" comment="" />
+      <created>1592500007378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592500007378</updated>
+      <workItem from="1592500009918" duration="3931000" />
+      <workItem from="1592672085377" duration="1540000" />
+      <workItem from="1592724275848" duration="2710000" />
+      <workItem from="1592851031167" duration="2214000" />
+      <workItem from="1592922827065" duration="4000" />
+      <workItem from="1593333639307" duration="5644000" />
+      <workItem from="1593454979923" duration="2887000" />
+      <workItem from="1593528331359" duration="152000" />
+      <workItem from="1594407966320" duration="272000" />
+      <workItem from="1594408617719" duration="204000" />
+      <workItem from="1594464009688" duration="3619000" />
+      <workItem from="1594541540463" duration="1641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592673273936">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592673273936" />
+    <state width="1659" height="269" key="GridCell.Tab.0.bottom" timestamp="1592507219628">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592507219628" />
+    <state width="1659" height="269" key="GridCell.Tab.0.center" timestamp="1592507219627">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="269" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592507219627" />
+    <state width="1659" height="269" key="GridCell.Tab.0.left" timestamp="1592507219626">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="269" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592507219626" />
+    <state width="1659" height="269" key="GridCell.Tab.0.right" timestamp="1592507219627">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="269" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592507219627" />
+    <state x="561" y="358" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594541742346">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="561" y="360" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594471683108" />
+    <state x="561" y="358" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.976@0.23.1680.976" timestamp="1594541742346" />
+  </component>
+</project>
