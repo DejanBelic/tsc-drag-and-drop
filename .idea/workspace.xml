@@ -32,4 +32,10 @@
   <component name="TaskManager">
     <servers />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594664367090">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="561" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.976@0.23.1680.976" timestamp="1594664367090" />
+  </component>
 </project>
