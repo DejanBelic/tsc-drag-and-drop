@@ -118,3 +118,8 @@ const fetchedUser = {
 
 console.log(fetchedUser.job && fetchedUser.job.title)
 console.log(fetchedUser?.job?.title)
+
+const userInput = null;
+
+// const storedData = userInput || 'DEFAULT';
+const storedData = userInput ?? 'DEFAULT';
