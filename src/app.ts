@@ -109,3 +109,12 @@ const errorBag: ErrorContainer = {
 	email: 'Not a valid email',
 	username: 'Must start with a capital character!'
 }
+
+const fetchedUser = {
+	id: 1,
+	name: 'Dejan',
+	job: { title: 'FullStack developer', description: 'my own company'}
+}
+
+console.log(fetchedUser.job && fetchedUser.job.title)
+console.log(fetchedUser?.job?.title)
